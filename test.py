@@ -16,3 +16,19 @@ elif(d>0):
     print("Liczba jest dodatnia")
 else:
     print("Liczba jest ujemna")
+print("Ten program oblicza BMI")
+waga = float(input("Podaj wagę:"))
+wzrost = float(input("Podaj wzrost:"))
+
+BMI= (waga/(wzrost**2))*10000
+ 
+print(f"Twoje BMI wynosi: { BMI:.1f} "  )
+ 
+if(BMI<18.5):
+    print("Masz niedowagę")
+elif (BMI>=18.5 and BMI<25):
+    print("Masz prawidłową wagę")
+elif(BMI>=25 and BMI<30):
+    print("Masz nadwagę")
+elif(BMI>=30):
+    print("Masz otyłość")
