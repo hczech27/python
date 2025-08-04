@@ -32,3 +32,6 @@ elif(BMI>=25 and BMI<30):
     print("Masz nadwagę")
 elif(BMI>=30):
     print("Masz otyłość")
+
+
+
