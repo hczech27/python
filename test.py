@@ -33,5 +33,12 @@ elif(BMI>=25 and BMI<30):
 elif(BMI>=30):
     print("Masz otyłość")
 
+e = 10
+suma = 0
+for i in range(1,e+1):
+    suma+=i
+
+print(suma)
+
 
 
